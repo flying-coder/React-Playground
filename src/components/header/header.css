@@ -1,0 +1,44 @@
+/* header {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+} */
+
+.components__header {
+	background-color: #ffffff;
+	height: 88px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.components__header__logo {
+	/* サイズをベタ書きで設定したが、レスポンシブ的にはよくない気がする */
+	width: 121px;
+	height: 30px;
+	margin-left: 160px;
+}
+.components__header__menu {
+	/* marginをベタ書きで設定したが、レスポンシブ的にはよくない気がする */
+	margin-right: 160px;
+	display: flex;
+	margin-left: auto;
+	justify-content: space-between;
+}
+.components__header__menu ul li {
+	/* marginをベタ書きで設定したが、レスポンシブ的にはよくない気がする */
+	margin-right: 40px;
+	list-style: none;
+	display: inline-block;
+}
+
+.components__header__menu ul li a {
+	text-decoration: none;
+	color: #666666;
+	transition: all 0.2s;
+}
+
+.components__header__menu ul li a:hover {
+	color: darkseagreen;
+}

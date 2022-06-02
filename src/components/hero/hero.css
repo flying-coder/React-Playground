@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+.components__hero__subtitle {
+	color: #ffffff;
+	font-weight: lighter;
+	font-size: 24;
+	font-family: "Montserrat";
+	margin-top: 121px;
+	margin-bottom: 0px;
+	display: flex;
+	justify-content: center;
+}
+
+.components__hero__title {
+	color: #666666;
+	font-weight: normal;
+	font-size: 48;
+	font-family: "Noto Sans JP";
+	margin: 0;
+	display: flex;
+	justify-content: center;
+}
+
+#components__hero__plant {
+	width: 100vw;
+}
