@@ -8,7 +8,13 @@ const Navbar = () => {
 		<>
 			<header>
 				<div className="components__header">
-					<img src={nco_logo} alt="logo" className="components__header__logo" />
+					<Link to="/">
+						<img
+							src={nco_logo}
+							alt="logo"
+							className="components__header__logo"
+						/>
+					</Link>
 					<nav className="components__header__menu">
 						<ul>
 							<li>

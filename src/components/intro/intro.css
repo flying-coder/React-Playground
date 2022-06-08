@@ -1,0 +1,14 @@
+.component__intro {
+	display: flex;
+}
+
+.component__intro__intro {
+	width: 30%;
+	margin: 20px;
+	color: #666666;
+}
+
+#component__intro__product {
+	width: 30%;
+	margin: 20px;
+}
